@@ -59,9 +59,14 @@
   #endif
 #endif
 
+/*
+//Original Arduino Libraries
 #include <avr/pgmspace.h>
 #include <Arduino.h>
 #include <Print.h>
+*/
+
+#include "stm32.h"
 
 #include <Fonts/GFXFF/gfxfont.h>
 
